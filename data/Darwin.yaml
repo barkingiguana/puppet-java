@@ -1,0 +1,7 @@
+---
+java::jre_package: 'jre-7u51.dmg'
+java::jre_url: 'https://s3.amazonaws.com/boxen-downloads/java/jre-7u51-macosx-x64.dmg'
+java::jdk_package: 'jre-7u51.dmg'
+java::jdk_url: 'https://s3.amazonaws.com/boxen-downloads/java/jdk-7u51-macosx-x64.dmg'
+java::sec_dir: '/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/security',
+java::wrapper: "%{boxen::config::bindir}/java"
