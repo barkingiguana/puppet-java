@@ -7,7 +7,7 @@ class java(
   $jre_url     = undef,
   $jre_package = undef,
   $jdk_url     = undef,
-  $jre_package = undef,
+  $jdk_package = undef,
   $sec_dir     = undef,
   $wrapper     = undef,
 ) {
